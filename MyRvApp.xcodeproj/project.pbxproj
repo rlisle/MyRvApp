@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27CA05EA19A8B8B900B77A27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CA05E919A8B8B900B77A27 /* AppDelegate.swift */; };
+		27CA05EC19A8B8B900B77A27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CA05EB19A8B8B900B77A27 /* ViewController.swift */; };
+		27CA05EF19A8B8B900B77A27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27CA05ED19A8B8B900B77A27 /* Main.storyboard */; };
+		27CA05F119A8B8B900B77A27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27CA05F019A8B8B900B77A27 /* Images.xcassets */; };
+		27CA05FD19A8B8B900B77A27 /* MyRvAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CA05FC19A8B8B900B77A27 /* MyRvAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27CA05F719A8B8B900B77A27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27CA05DC19A8B8B900B77A27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27CA05E319A8B8B900B77A27;
+			remoteInfo = MyRvApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27CA05E419A8B8B900B77A27 /* MyRvApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRvApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27CA05E819A8B8B900B77A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27CA05E919A8B8B900B77A27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27CA05EB19A8B8B900B77A27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27CA05EE19A8B8B900B77A27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27CA05F019A8B8B900B77A27 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		27CA05F619A8B8B900B77A27 /* MyRvAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyRvAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27CA05FB19A8B8B900B77A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27CA05FC19A8B8B900B77A27 /* MyRvAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRvAppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27CA05E119A8B8B900B77A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27CA05F319A8B8B900B77A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27CA05DB19A8B8B900B77A27 = {
+			isa = PBXGroup;
+			children = (
+				27CA05E619A8B8B900B77A27 /* MyRvApp */,
+				27CA05F919A8B8B900B77A27 /* MyRvAppTests */,
+				27CA05E519A8B8B900B77A27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27CA05E519A8B8B900B77A27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27CA05E419A8B8B900B77A27 /* MyRvApp.app */,
+				27CA05F619A8B8B900B77A27 /* MyRvAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27CA05E619A8B8B900B77A27 /* MyRvApp */ = {
+			isa = PBXGroup;
+			children = (
+				27CA05E919A8B8B900B77A27 /* AppDelegate.swift */,
+				27CA05EB19A8B8B900B77A27 /* ViewController.swift */,
+				27CA05ED19A8B8B900B77A27 /* Main.storyboard */,
+				27CA05F019A8B8B900B77A27 /* Images.xcassets */,
+				27CA05E719A8B8B900B77A27 /* Supporting Files */,
+			);
+			path = MyRvApp;
+			sourceTree = "<group>";
+		};
+		27CA05E719A8B8B900B77A27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27CA05E819A8B8B900B77A27 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27CA05F919A8B8B900B77A27 /* MyRvAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				27CA05FC19A8B8B900B77A27 /* MyRvAppTests.swift */,
+				27CA05FA19A8B8B900B77A27 /* Supporting Files */,
+			);
+			path = MyRvAppTests;
+			sourceTree = "<group>";
+		};
+		27CA05FA19A8B8B900B77A27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27CA05FB19A8B8B900B77A27 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27CA05E319A8B8B900B77A27 /* MyRvApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27CA060019A8B8B900B77A27 /* Build configuration list for PBXNativeTarget "MyRvApp" */;
+			buildPhases = (
+				27CA05E019A8B8B900B77A27 /* Sources */,
+				27CA05E119A8B8B900B77A27 /* Frameworks */,
+				27CA05E219A8B8B900B77A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyRvApp;
+			productName = MyRvApp;
+			productReference = 27CA05E419A8B8B900B77A27 /* MyRvApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27CA05F519A8B8B900B77A27 /* MyRvAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27CA060319A8B8B900B77A27 /* Build configuration list for PBXNativeTarget "MyRvAppTests" */;
+			buildPhases = (
+				27CA05F219A8B8B900B77A27 /* Sources */,
+				27CA05F319A8B8B900B77A27 /* Frameworks */,
+				27CA05F419A8B8B900B77A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27CA05F819A8B8B900B77A27 /* PBXTargetDependency */,
+			);
+			name = MyRvAppTests;
+			productName = MyRvAppTests;
+			productReference = 27CA05F619A8B8B900B77A27 /* MyRvAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27CA05DC19A8B8B900B77A27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Ron Lisle";
+				TargetAttributes = {
+					27CA05E319A8B8B900B77A27 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					27CA05F519A8B8B900B77A27 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 27CA05E319A8B8B900B77A27;
+					};
+				};
+			};
+			buildConfigurationList = 27CA05DF19A8B8B900B77A27 /* Build configuration list for PBXProject "MyRvApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27CA05DB19A8B8B900B77A27;
+			productRefGroup = 27CA05E519A8B8B900B77A27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27CA05E319A8B8B900B77A27 /* MyRvApp */,
+				27CA05F519A8B8B900B77A27 /* MyRvAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27CA05E219A8B8B900B77A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27CA05EF19A8B8B900B77A27 /* Main.storyboard in Resources */,
+				27CA05F119A8B8B900B77A27 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27CA05F419A8B8B900B77A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27CA05E019A8B8B900B77A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27CA05EC19A8B8B900B77A27 /* ViewController.swift in Sources */,
+				27CA05EA19A8B8B900B77A27 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27CA05F219A8B8B900B77A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27CA05FD19A8B8B900B77A27 /* MyRvAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27CA05F819A8B8B900B77A27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27CA05E319A8B8B900B77A27 /* MyRvApp */;
+			targetProxy = 27CA05F719A8B8B900B77A27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27CA05ED19A8B8B900B77A27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27CA05EE19A8B8B900B77A27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27CA05FE19A8B8B900B77A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27CA05FF19A8B8B900B77A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27CA060119A8B8B900B77A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MyRvApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27CA060219A8B8B900B77A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MyRvApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		27CA060419A8B8B900B77A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyRvAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyRvApp.app/MyRvApp";
+			};
+			name = Debug;
+		};
+		27CA060519A8B8B900B77A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyRvAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyRvApp.app/MyRvApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27CA05DF19A8B8B900B77A27 /* Build configuration list for PBXProject "MyRvApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27CA05FE19A8B8B900B77A27 /* Debug */,
+				27CA05FF19A8B8B900B77A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27CA060019A8B8B900B77A27 /* Build configuration list for PBXNativeTarget "MyRvApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27CA060119A8B8B900B77A27 /* Debug */,
+				27CA060219A8B8B900B77A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		27CA060319A8B8B900B77A27 /* Build configuration list for PBXNativeTarget "MyRvAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27CA060419A8B8B900B77A27 /* Debug */,
+				27CA060519A8B8B900B77A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27CA05DC19A8B8B900B77A27 /* Project object */;
+}
