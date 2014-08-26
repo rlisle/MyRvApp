@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27A5652919AB5D4B004DD0F0 /* RVFloorPlan.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A5652819AB5D4B004DD0F0 /* RVFloorPlan.png */; };
 		27CA05EA19A8B8B900B77A27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CA05E919A8B8B900B77A27 /* AppDelegate.swift */; };
 		27CA05EC19A8B8B900B77A27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CA05EB19A8B8B900B77A27 /* ViewController.swift */; };
 		27CA05EF19A8B8B900B77A27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27CA05ED19A8B8B900B77A27 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27A5652819AB5D4B004DD0F0 /* RVFloorPlan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RVFloorPlan.png; sourceTree = "<group>"; };
 		27CA05E419A8B8B900B77A27 /* MyRvApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRvApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27CA05E819A8B8B900B77A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27CA05E919A8B8B900B77A27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27A5652A19AB5D57004DD0F0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				27A5652819AB5D4B004DD0F0 /* RVFloorPlan.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		27CA05DB19A8B8B900B77A27 = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +85,7 @@
 		27CA05E619A8B8B900B77A27 /* MyRvApp */ = {
 			isa = PBXGroup;
 			children = (
+				27A5652A19AB5D57004DD0F0 /* Resources */,
 				27CA05E919A8B8B900B77A27 /* AppDelegate.swift */,
 				27CA05EB19A8B8B900B77A27 /* ViewController.swift */,
 				27CA05ED19A8B8B900B77A27 /* Main.storyboard */,
@@ -191,6 +202,7 @@
 			files = (
 				27CA05EF19A8B8B900B77A27 /* Main.storyboard in Resources */,
 				27CA05F119A8B8B900B77A27 /* Images.xcassets in Resources */,
+				27A5652919AB5D4B004DD0F0 /* RVFloorPlan.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +409,7 @@
 				27CA060219A8B8B900B77A27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27CA060319A8B8B900B77A27 /* Build configuration list for PBXNativeTarget "MyRvAppTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +418,7 @@
 				27CA060519A8B8B900B77A27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
