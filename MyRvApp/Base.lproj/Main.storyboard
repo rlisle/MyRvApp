@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6206.8" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6206.8" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ayC-xn-nVx">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1"/>
         <capability name="Constraints with attributes relative to the layout margin" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="u2F-ck-kqB">
+            <objects>
+                <navigationController id="ayC-xn-nVx" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zs9-9R-Uez">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="vrQ-EH-Tw7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ODs-ar-L5g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-505" y="147"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -20,20 +36,106 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="RVFloorPlan.png" translatesAutoresizingMaskIntoConstraints="NO" id="fiO-mQ-hVA">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UWE-RW-Ie0">
+                                <rect key="frame" x="97" y="285" width="60" height="30"/>
+                                <state key="normal" title=".">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="M4Y-EL-pPr" kind="show" id="9yL-dF-ODe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IrS-ZH-SlL">
+                                <rect key="frame" x="277" y="285" width="46" height="30"/>
+                                <state key="normal" title=".">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="95e-QU-jGo" kind="show" id="RWr-Lt-i4d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9aM-ud-dJk">
+                                <rect key="frame" x="469" y="285" width="45" height="31"/>
+                                <state key="normal" title=".">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="M21-mw-Y9A" kind="show" id="tIe-R7-dqu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="IrS-ZH-SlL" firstAttribute="centerY" secondItem="fiO-mQ-hVA" secondAttribute="centerY" id="FB2-s2-Aro"/>
                             <constraint firstAttribute="centerY" secondItem="fiO-mQ-hVA" secondAttribute="centerY" id="JB9-X4-FJc"/>
                             <constraint firstAttribute="trailingMargin" secondItem="fiO-mQ-hVA" secondAttribute="trailing" id="Lda-Pl-EkS"/>
+                            <constraint firstItem="fiO-mQ-hVA" firstAttribute="centerY" secondItem="9aM-ud-dJk" secondAttribute="centerY" id="X7s-Yn-H6r"/>
+                            <constraint firstItem="fiO-mQ-hVA" firstAttribute="centerY" secondItem="UWE-RW-Ie0" secondAttribute="centerY" id="ojq-vx-gQj"/>
                             <constraint firstItem="fiO-mQ-hVA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="wqE-0H-DtJ"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Bdg-hN-8fT"/>
                     <connections>
                         <outlet property="imageView" destination="fiO-mQ-hVA" id="QFf-I9-b3h"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="140" y="147"/>
+        </scene>
+        <!--Bedroom View Controller-->
+        <scene sceneID="PpK-z8-BHI">
+            <objects>
+                <viewController id="M4Y-EL-pPr" customClass="BedroomViewController" customModule="MyRvApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zLW-1M-s8T"/>
+                        <viewControllerLayoutGuide type="bottom" id="zlG-bb-TYa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NoX-4b-kAe">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fmV-aa-JRD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="874" y="-561"/>
+        </scene>
+        <!--Main Room View Controller-->
+        <scene sceneID="eze-Ha-DYE">
+            <objects>
+                <viewController id="95e-QU-jGo" customClass="MainRoomViewController" customModule="MyRvApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nW6-X5-yG5"/>
+                        <viewControllerLayoutGuide type="bottom" id="AeN-lC-9AY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1DU-A9-Lfk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V3T-v5-Pen" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="874" y="141"/>
+        </scene>
+        <!--Garage View Controller-->
+        <scene sceneID="qPL-d4-r6K">
+            <objects>
+                <viewController id="M21-mw-Y9A" customClass="GarageViewController" customModule="MyRvApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OO4-8x-pX7"/>
+                        <viewControllerLayoutGuide type="bottom" id="yus-nA-qOX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="unr-aG-dCt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tWq-aU-3fr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="874" y="834"/>
         </scene>
     </scenes>
     <resources>

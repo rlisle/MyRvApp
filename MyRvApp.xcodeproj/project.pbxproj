@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27795C1219ACC03800B1EB6E /* RVBedroomFloorPlan.png in Resources */ = {isa = PBXBuildFile; fileRef = 27795C1119ACC03800B1EB6E /* RVBedroomFloorPlan.png */; };
+		27795C1419ACC04400B1EB6E /* RVGarageFloorPlan.png in Resources */ = {isa = PBXBuildFile; fileRef = 27795C1319ACC04400B1EB6E /* RVGarageFloorPlan.png */; };
+		27795C1619ACC04B00B1EB6E /* RVMainRoomFloorPlan.png in Resources */ = {isa = PBXBuildFile; fileRef = 27795C1519ACC04B00B1EB6E /* RVMainRoomFloorPlan.png */; };
+		27795C1819ACC15A00B1EB6E /* BedroomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27795C1719ACC15A00B1EB6E /* BedroomViewController.swift */; };
+		27795C1A19ACC16C00B1EB6E /* MainRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27795C1919ACC16C00B1EB6E /* MainRoomViewController.swift */; };
+		27795C1C19ACC17A00B1EB6E /* GarageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27795C1B19ACC17A00B1EB6E /* GarageViewController.swift */; };
 		27A5652919AB5D4B004DD0F0 /* RVFloorPlan.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A5652819AB5D4B004DD0F0 /* RVFloorPlan.png */; };
 		27CA05EA19A8B8B900B77A27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CA05E919A8B8B900B77A27 /* AppDelegate.swift */; };
 		27CA05EC19A8B8B900B77A27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CA05EB19A8B8B900B77A27 /* ViewController.swift */; };
@@ -26,6 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27795C1119ACC03800B1EB6E /* RVBedroomFloorPlan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RVBedroomFloorPlan.png; sourceTree = "<group>"; };
+		27795C1319ACC04400B1EB6E /* RVGarageFloorPlan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RVGarageFloorPlan.png; sourceTree = "<group>"; };
+		27795C1519ACC04B00B1EB6E /* RVMainRoomFloorPlan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RVMainRoomFloorPlan.png; sourceTree = "<group>"; };
+		27795C1719ACC15A00B1EB6E /* BedroomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BedroomViewController.swift; sourceTree = "<group>"; };
+		27795C1919ACC16C00B1EB6E /* MainRoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRoomViewController.swift; sourceTree = "<group>"; };
+		27795C1B19ACC17A00B1EB6E /* GarageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarageViewController.swift; sourceTree = "<group>"; };
 		27A5652819AB5D4B004DD0F0 /* RVFloorPlan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RVFloorPlan.png; sourceTree = "<group>"; };
 		27CA05E419A8B8B900B77A27 /* MyRvApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRvApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27CA05E819A8B8B900B77A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,9 +68,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27795C1D19ACC18400B1EB6E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				27795C1719ACC15A00B1EB6E /* BedroomViewController.swift */,
+				27795C1B19ACC17A00B1EB6E /* GarageViewController.swift */,
+				27795C1919ACC16C00B1EB6E /* MainRoomViewController.swift */,
+				27CA05EB19A8B8B900B77A27 /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		27A5652A19AB5D57004DD0F0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				27795C1519ACC04B00B1EB6E /* RVMainRoomFloorPlan.png */,
+				27795C1319ACC04400B1EB6E /* RVGarageFloorPlan.png */,
+				27795C1119ACC03800B1EB6E /* RVBedroomFloorPlan.png */,
 				27A5652819AB5D4B004DD0F0 /* RVFloorPlan.png */,
 			);
 			name = Resources;
@@ -85,9 +111,9 @@
 		27CA05E619A8B8B900B77A27 /* MyRvApp */ = {
 			isa = PBXGroup;
 			children = (
+				27795C1D19ACC18400B1EB6E /* ViewControllers */,
 				27A5652A19AB5D57004DD0F0 /* Resources */,
 				27CA05E919A8B8B900B77A27 /* AppDelegate.swift */,
-				27CA05EB19A8B8B900B77A27 /* ViewController.swift */,
 				27CA05ED19A8B8B900B77A27 /* Main.storyboard */,
 				27CA05F019A8B8B900B77A27 /* Images.xcassets */,
 				27CA05E719A8B8B900B77A27 /* Supporting Files */,
@@ -202,7 +228,10 @@
 			files = (
 				27CA05EF19A8B8B900B77A27 /* Main.storyboard in Resources */,
 				27CA05F119A8B8B900B77A27 /* Images.xcassets in Resources */,
+				27795C1219ACC03800B1EB6E /* RVBedroomFloorPlan.png in Resources */,
+				27795C1619ACC04B00B1EB6E /* RVMainRoomFloorPlan.png in Resources */,
 				27A5652919AB5D4B004DD0F0 /* RVFloorPlan.png in Resources */,
+				27795C1419ACC04400B1EB6E /* RVGarageFloorPlan.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,8 +249,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27795C1A19ACC16C00B1EB6E /* MainRoomViewController.swift in Sources */,
 				27CA05EC19A8B8B900B77A27 /* ViewController.swift in Sources */,
 				27CA05EA19A8B8B900B77A27 /* AppDelegate.swift in Sources */,
+				27795C1C19ACC17A00B1EB6E /* GarageViewController.swift in Sources */,
+				27795C1819ACC15A00B1EB6E /* BedroomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
