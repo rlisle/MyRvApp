@@ -42,7 +42,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="M4Y-EL-pPr" kind="show" id="9yL-dF-ODe"/>
+                                    <segue destination="M21-mw-Y9A" kind="custom" customClass="MainRoomSeque" customModule="MyRvApp" id="KA1-Oi-gQa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IrS-ZH-SlL">
@@ -51,7 +51,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="95e-QU-jGo" kind="show" id="RWr-Lt-i4d"/>
+                                    <segue destination="95e-QU-jGo" kind="custom" customClass="MainRoomSeque" customModule="MyRvApp" id="RWr-Lt-i4d"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9aM-ud-dJk">
@@ -60,7 +60,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="M21-mw-Y9A" kind="show" id="tIe-R7-dqu"/>
+                                    <segue destination="M4Y-EL-pPr" kind="custom" customClass="MainRoomSeque" customModule="MyRvApp" id="AK2-cF-WHB"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -94,6 +94,11 @@
                     <view key="view" contentMode="scaleToFill" id="NoX-4b-kAe">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RVBedroomFloorPlan.png" translatesAutoresizingMaskIntoConstraints="NO" id="3gd-yT-Suz">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
@@ -112,6 +117,11 @@
                     <view key="view" contentMode="scaleToFill" id="1DU-A9-Lfk">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RVMainRoomFloorPlan.png" translatesAutoresizingMaskIntoConstraints="NO" id="9XF-Wh-znl">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
@@ -130,6 +140,11 @@
                     <view key="view" contentMode="scaleToFill" id="unr-aG-dCt">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RVGarageFloorPlan.png" translatesAutoresizingMaskIntoConstraints="NO" id="8Jt-mp-U85">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
@@ -139,6 +154,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="RVBedroomFloorPlan.png" width="368" height="318"/>
         <image name="RVFloorPlan.png" width="1125" height="360"/>
+        <image name="RVGarageFloorPlan.png" width="343" height="253"/>
+        <image name="RVMainRoomFloorPlan.png" width="440" height="348"/>
     </resources>
 </document>

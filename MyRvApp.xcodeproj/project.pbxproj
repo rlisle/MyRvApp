@@ -19,6 +19,7 @@
 		27CA05EF19A8B8B900B77A27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27CA05ED19A8B8B900B77A27 /* Main.storyboard */; };
 		27CA05F119A8B8B900B77A27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27CA05F019A8B8B900B77A27 /* Images.xcassets */; };
 		27CA05FD19A8B8B900B77A27 /* MyRvAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CA05FC19A8B8B900B77A27 /* MyRvAppTests.swift */; };
+		27CF9BB019AE3DDD00EA1559 /* MainRoomSeque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CF9BAF19AE3DDD00EA1559 /* MainRoomSeque.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		27CA05F619A8B8B900B77A27 /* MyRvAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyRvAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27CA05FB19A8B8B900B77A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27CA05FC19A8B8B900B77A27 /* MyRvAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRvAppTests.swift; sourceTree = "<group>"; };
+		27CF9BAF19AE3DDD00EA1559 /* MainRoomSeque.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRoomSeque.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				27795C1B19ACC17A00B1EB6E /* GarageViewController.swift */,
 				27795C1919ACC16C00B1EB6E /* MainRoomViewController.swift */,
 				27CA05EB19A8B8B900B77A27 /* ViewController.swift */,
+				27CF9BAF19AE3DDD00EA1559 /* MainRoomSeque.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27795C1A19ACC16C00B1EB6E /* MainRoomViewController.swift in Sources */,
+				27CF9BB019AE3DDD00EA1559 /* MainRoomSeque.swift in Sources */,
 				27CA05EC19A8B8B900B77A27 /* ViewController.swift in Sources */,
 				27CA05EA19A8B8B900B77A27 /* AppDelegate.swift in Sources */,
 				27795C1C19ACC17A00B1EB6E /* GarageViewController.swift in Sources */,
