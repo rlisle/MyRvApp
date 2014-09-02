@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6206.8" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ayC-xn-nVx">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints with attributes relative to the layout margin" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -33,7 +34,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="RVFloorPlanLeft.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tay-H8-EsJ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="RVFloorPlanLeft.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tay-H8-EsJ">
                                 <rect key="frame" x="16" y="120" width="175" height="180"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="EHt-tu-ehb"/>
@@ -52,6 +53,12 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="RVFloorPlanRight.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jf3-z2-c6e">
                                 <rect key="frame" x="396" y="120" width="179" height="180"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oxx-lX-c9r">
+                                <rect key="frame" x="80" y="195" width="46" height="30"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -59,6 +66,8 @@
                             <constraint firstItem="Tay-H8-EsJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="7F3-8I-ibK"/>
                             <constraint firstAttribute="bottomMargin" secondItem="Tay-H8-EsJ" secondAttribute="bottom" constant="20" id="7Pa-Ec-fEA"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Jf3-z2-c6e" secondAttribute="trailing" id="Dpx-Ct-fmn"/>
+                            <constraint firstItem="oxx-lX-c9r" firstAttribute="width" secondItem="Tay-H8-EsJ" secondAttribute="width" id="HxG-d3-vFi"/>
+                            <constraint firstItem="oxx-lX-c9r" firstAttribute="width" secondItem="Tay-H8-EsJ" secondAttribute="height" multiplier="23:90" id="M6O-7t-Odn"/>
                             <constraint firstAttribute="centerY" secondItem="Tay-H8-EsJ" secondAttribute="centerY" id="OPP-tX-jKw"/>
                             <constraint firstItem="kdv-Um-L6a" firstAttribute="leading" secondItem="Tay-H8-EsJ" secondAttribute="trailing" id="keT-F7-kUO"/>
                             <constraint firstAttribute="centerY" secondItem="kdv-Um-L6a" secondAttribute="centerY" id="qcp-lL-nfO"/>
