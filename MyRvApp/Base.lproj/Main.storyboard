@@ -33,55 +33,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="RVFloorPlan.png" translatesAutoresizingMaskIntoConstraints="NO" id="fiO-mQ-hVA">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RVFloorPlanLeft.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tay-H8-EsJ">
+                                <rect key="frame" x="16" y="380" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="EHt-tu-ehb"/>
+                                    <constraint firstAttribute="height" constant="200" id="dgV-iw-oQY"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UWE-RW-Ie0">
-                                <rect key="frame" x="97" y="285" width="60" height="30"/>
-                                <state key="normal" title=".">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="M21-mw-Y9A" kind="custom" customClass="MainRoomSeque" customModule="MyRvApp" id="KA1-Oi-gQa"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IrS-ZH-SlL">
-                                <rect key="frame" x="277" y="285" width="46" height="30"/>
-                                <state key="normal" title=".">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="95e-QU-jGo" kind="custom" customClass="MainRoomSeque" customModule="MyRvApp" id="RWr-Lt-i4d"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9aM-ud-dJk">
-                                <rect key="frame" x="469" y="285" width="45" height="31"/>
-                                <state key="normal" title=".">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="M4Y-EL-pPr" kind="custom" customClass="MainRoomSeque" customModule="MyRvApp" id="AK2-cF-WHB"/>
-                                </connections>
-                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="RVFloorPlanMiddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="kdv-Um-L6a">
+                                <rect key="frame" x="224" y="408" width="240" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="RVFloorPlanRight.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jf3-z2-c6e">
+                                <rect key="frame" x="344" y="408" width="170" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="IrS-ZH-SlL" firstAttribute="centerY" secondItem="fiO-mQ-hVA" secondAttribute="centerY" id="FB2-s2-Aro"/>
-                            <constraint firstAttribute="centerY" secondItem="fiO-mQ-hVA" secondAttribute="centerY" id="JB9-X4-FJc"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="fiO-mQ-hVA" secondAttribute="trailing" id="Lda-Pl-EkS"/>
-                            <constraint firstItem="fiO-mQ-hVA" firstAttribute="centerY" secondItem="9aM-ud-dJk" secondAttribute="centerY" id="X7s-Yn-H6r"/>
-                            <constraint firstItem="fiO-mQ-hVA" firstAttribute="centerY" secondItem="UWE-RW-Ie0" secondAttribute="centerY" id="ojq-vx-gQj"/>
-                            <constraint firstItem="fiO-mQ-hVA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="wqE-0H-DtJ"/>
+                            <constraint firstAttribute="centerY" secondItem="Jf3-z2-c6e" secondAttribute="centerY" id="6Q3-Oi-VoA"/>
+                            <constraint firstItem="Tay-H8-EsJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="7F3-8I-ibK"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="Tay-H8-EsJ" secondAttribute="bottom" constant="20" id="7Pa-Ec-fEA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Jf3-z2-c6e" secondAttribute="trailing" constant="70" id="Dpx-Ct-fmn"/>
+                            <constraint firstAttribute="centerY" secondItem="Tay-H8-EsJ" secondAttribute="centerY" id="OPP-tX-jKw"/>
+                            <constraint firstItem="kdv-Um-L6a" firstAttribute="leading" secondItem="Tay-H8-EsJ" secondAttribute="trailing" constant="8" id="keT-F7-kUO"/>
+                            <constraint firstAttribute="centerY" secondItem="kdv-Um-L6a" secondAttribute="centerY" id="qcp-lL-nfO"/>
+                            <constraint firstItem="Jf3-z2-c6e" firstAttribute="leading" secondItem="kdv-Um-L6a" secondAttribute="trailing" constant="-120" id="xS0-Di-4Te"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Bdg-hN-8fT"/>
-                    <connections>
-                        <outlet property="imageView" destination="fiO-mQ-hVA" id="QFf-I9-b3h"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="140" y="147"/>
+            <point key="canvasLocation" x="210" y="147"/>
         </scene>
         <!--Bedroom View Controller-->
         <scene sceneID="PpK-z8-BHI">
@@ -155,7 +137,9 @@
     </scenes>
     <resources>
         <image name="RVBedroomFloorPlan.png" width="368" height="318"/>
-        <image name="RVFloorPlan.png" width="1125" height="360"/>
+        <image name="RVFloorPlanLeft.png" width="351" height="360"/>
+        <image name="RVFloorPlanMiddle.png" width="412" height="360"/>
+        <image name="RVFloorPlanRight.png" width="358" height="360"/>
         <image name="RVGarageFloorPlan.png" width="343" height="253"/>
         <image name="RVMainRoomFloorPlan.png" width="440" height="348"/>
     </resources>

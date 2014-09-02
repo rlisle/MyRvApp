@@ -20,6 +20,9 @@
 		27CA05F119A8B8B900B77A27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27CA05F019A8B8B900B77A27 /* Images.xcassets */; };
 		27CA05FD19A8B8B900B77A27 /* MyRvAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CA05FC19A8B8B900B77A27 /* MyRvAppTests.swift */; };
 		27CF9BB019AE3DDD00EA1559 /* MainRoomSeque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CF9BAF19AE3DDD00EA1559 /* MainRoomSeque.swift */; };
+		27D220FD19B5ED5000637814 /* RVFloorPlanLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 27D220FA19B5ED5000637814 /* RVFloorPlanLeft.png */; };
+		27D220FE19B5ED5000637814 /* RVFloorPlanMiddle.png in Resources */ = {isa = PBXBuildFile; fileRef = 27D220FB19B5ED5000637814 /* RVFloorPlanMiddle.png */; };
+		27D220FF19B5ED5000637814 /* RVFloorPlanRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 27D220FC19B5ED5000637814 /* RVFloorPlanRight.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		27CA05FB19A8B8B900B77A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27CA05FC19A8B8B900B77A27 /* MyRvAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRvAppTests.swift; sourceTree = "<group>"; };
 		27CF9BAF19AE3DDD00EA1559 /* MainRoomSeque.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRoomSeque.swift; sourceTree = "<group>"; };
+		27D220FA19B5ED5000637814 /* RVFloorPlanLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RVFloorPlanLeft.png; sourceTree = "<group>"; };
+		27D220FB19B5ED5000637814 /* RVFloorPlanMiddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RVFloorPlanMiddle.png; sourceTree = "<group>"; };
+		27D220FC19B5ED5000637814 /* RVFloorPlanRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RVFloorPlanRight.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,9 @@
 				27795C1319ACC04400B1EB6E /* RVGarageFloorPlan.png */,
 				27795C1119ACC03800B1EB6E /* RVBedroomFloorPlan.png */,
 				27A5652819AB5D4B004DD0F0 /* RVFloorPlan.png */,
+				27D220FA19B5ED5000637814 /* RVFloorPlanLeft.png */,
+				27D220FB19B5ED5000637814 /* RVFloorPlanMiddle.png */,
+				27D220FC19B5ED5000637814 /* RVFloorPlanRight.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -231,9 +240,12 @@
 			files = (
 				27CA05EF19A8B8B900B77A27 /* Main.storyboard in Resources */,
 				27CA05F119A8B8B900B77A27 /* Images.xcassets in Resources */,
+				27D220FD19B5ED5000637814 /* RVFloorPlanLeft.png in Resources */,
 				27795C1219ACC03800B1EB6E /* RVBedroomFloorPlan.png in Resources */,
+				27D220FE19B5ED5000637814 /* RVFloorPlanMiddle.png in Resources */,
 				27795C1619ACC04B00B1EB6E /* RVMainRoomFloorPlan.png in Resources */,
 				27A5652919AB5D4B004DD0F0 /* RVFloorPlan.png in Resources */,
+				27D220FF19B5ED5000637814 /* RVFloorPlanRight.png in Resources */,
 				27795C1419ACC04400B1EB6E /* RVGarageFloorPlan.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
