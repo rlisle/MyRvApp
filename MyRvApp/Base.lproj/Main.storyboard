@@ -33,18 +33,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RVFloorPlanLeft.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tay-H8-EsJ">
-                                <rect key="frame" x="16" y="380" width="200" height="200"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="RVFloorPlanLeft.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tay-H8-EsJ">
+                                <rect key="frame" x="16" y="120" width="175" height="180"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="EHt-tu-ehb"/>
                                     <constraint firstAttribute="height" constant="200" id="dgV-iw-oQY"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="EHt-tu-ehb"/>
+                                        <exclude reference="dgV-iw-oQY"/>
+                                    </mask>
+                                </variation>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="RVFloorPlanMiddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="kdv-Um-L6a">
-                                <rect key="frame" x="224" y="408" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="RVFloorPlanMiddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="kdv-Um-L6a">
+                                <rect key="frame" x="191" y="120" width="206" height="180"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="RVFloorPlanRight.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jf3-z2-c6e">
-                                <rect key="frame" x="344" y="408" width="170" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="RVFloorPlanRight.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jf3-z2-c6e">
+                                <rect key="frame" x="396" y="120" width="179" height="180"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -52,12 +58,17 @@
                             <constraint firstAttribute="centerY" secondItem="Jf3-z2-c6e" secondAttribute="centerY" id="6Q3-Oi-VoA"/>
                             <constraint firstItem="Tay-H8-EsJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="7F3-8I-ibK"/>
                             <constraint firstAttribute="bottomMargin" secondItem="Tay-H8-EsJ" secondAttribute="bottom" constant="20" id="7Pa-Ec-fEA"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Jf3-z2-c6e" secondAttribute="trailing" constant="70" id="Dpx-Ct-fmn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Jf3-z2-c6e" secondAttribute="trailing" id="Dpx-Ct-fmn"/>
                             <constraint firstAttribute="centerY" secondItem="Tay-H8-EsJ" secondAttribute="centerY" id="OPP-tX-jKw"/>
-                            <constraint firstItem="kdv-Um-L6a" firstAttribute="leading" secondItem="Tay-H8-EsJ" secondAttribute="trailing" constant="8" id="keT-F7-kUO"/>
+                            <constraint firstItem="kdv-Um-L6a" firstAttribute="leading" secondItem="Tay-H8-EsJ" secondAttribute="trailing" id="keT-F7-kUO"/>
                             <constraint firstAttribute="centerY" secondItem="kdv-Um-L6a" secondAttribute="centerY" id="qcp-lL-nfO"/>
-                            <constraint firstItem="Jf3-z2-c6e" firstAttribute="leading" secondItem="kdv-Um-L6a" secondAttribute="trailing" constant="-120" id="xS0-Di-4Te"/>
+                            <constraint firstItem="Jf3-z2-c6e" firstAttribute="leading" secondItem="kdv-Um-L6a" secondAttribute="trailing" id="xS0-Di-4Te"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="7Pa-Ec-fEA"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="Bdg-hN-8fT"/>
                 </viewController>
