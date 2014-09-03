@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6206.8" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ayC-xn-nVx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6206.8" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="ayC-xn-nVx">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints with attributes relative to the layout margin" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
         <scene sceneID="u2F-ck-kqB">
             <objects>
                 <navigationController id="ayC-xn-nVx" sceneMemberID="viewController">
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
+                        <size key="portraitSize" width="320" height="568"/>
+                        <size key="landscapeSize" width="568" height="320"/>
+                    </simulatedScreenMetrics>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="zs9-9R-Uez">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -20,147 +23,147 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ODs-ar-L5g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-505" y="147"/>
+            <point key="canvasLocation" x="-545" y="139"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyRvApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="RVFloorPlanLeft.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tay-H8-EsJ">
-                                <rect key="frame" x="16" y="120" width="175" height="180"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="EHt-tu-ehb"/>
-                                    <constraint firstAttribute="height" constant="200" id="dgV-iw-oQY"/>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="EHt-tu-ehb"/>
-                                        <exclude reference="dgV-iw-oQY"/>
-                                    </mask>
-                                </variation>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RVFloorPlani5.png" id="gmp-Sb-eO7">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="RVFloorPlanMiddle.png" translatesAutoresizingMaskIntoConstraints="NO" id="kdv-Um-L6a">
-                                <rect key="frame" x="191" y="120" width="206" height="180"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="RVFloorPlanRight.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jf3-z2-c6e">
-                                <rect key="frame" x="396" y="120" width="179" height="180"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oxx-lX-c9r">
-                                <rect key="frame" x="80" y="195" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7oe-bS-hpr">
+                                <rect key="frame" x="16" y="116" width="162" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="M21-mw-Y9A" kind="custom" id="gmT-Qg-mqV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YLO-hO-hif">
+                                <rect key="frame" x="186" y="77" width="197" height="166"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="95e-QU-jGo" kind="custom" id="87H-cA-e6b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="igV-bp-dBw">
+                                <rect key="frame" x="383" y="85" width="169" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="M4Y-EL-pPr" kind="custom" id="wNg-TG-RxF"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="centerY" secondItem="Jf3-z2-c6e" secondAttribute="centerY" id="6Q3-Oi-VoA"/>
-                            <constraint firstItem="Tay-H8-EsJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="7F3-8I-ibK"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="Tay-H8-EsJ" secondAttribute="bottom" constant="20" id="7Pa-Ec-fEA"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Jf3-z2-c6e" secondAttribute="trailing" id="Dpx-Ct-fmn"/>
-                            <constraint firstItem="oxx-lX-c9r" firstAttribute="width" secondItem="Tay-H8-EsJ" secondAttribute="width" id="HxG-d3-vFi"/>
-                            <constraint firstItem="oxx-lX-c9r" firstAttribute="width" secondItem="Tay-H8-EsJ" secondAttribute="height" multiplier="23:90" id="M6O-7t-Odn"/>
-                            <constraint firstAttribute="centerY" secondItem="Tay-H8-EsJ" secondAttribute="centerY" id="OPP-tX-jKw"/>
-                            <constraint firstItem="kdv-Um-L6a" firstAttribute="leading" secondItem="Tay-H8-EsJ" secondAttribute="trailing" id="keT-F7-kUO"/>
-                            <constraint firstAttribute="centerY" secondItem="kdv-Um-L6a" secondAttribute="centerY" id="qcp-lL-nfO"/>
-                            <constraint firstItem="Jf3-z2-c6e" firstAttribute="leading" secondItem="kdv-Um-L6a" secondAttribute="trailing" id="xS0-Di-4Te"/>
-                        </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="7Pa-Ec-fEA"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="Bdg-hN-8fT"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="210" y="147"/>
+            <point key="canvasLocation" x="112" y="139"/>
         </scene>
         <!--Bedroom View Controller-->
         <scene sceneID="PpK-z8-BHI">
             <objects>
                 <viewController id="M4Y-EL-pPr" customClass="BedroomViewController" customModule="MyRvApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="zLW-1M-s8T"/>
-                        <viewControllerLayoutGuide type="bottom" id="zlG-bb-TYa"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="NoX-4b-kAe">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RVBedroomFloorPlan.png" translatesAutoresizingMaskIntoConstraints="NO" id="3gd-yT-Suz">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RVFloorPlanRighti5.png" id="3gd-yT-Suz">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
+                        <size key="portraitSize" width="320" height="568"/>
+                        <size key="landscapeSize" width="568" height="320"/>
+                    </simulatedScreenMetrics>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fmV-aa-JRD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="874" y="-561"/>
+            <point key="canvasLocation" x="729" y="-262"/>
         </scene>
         <!--Main Room View Controller-->
         <scene sceneID="eze-Ha-DYE">
             <objects>
                 <viewController id="95e-QU-jGo" customClass="MainRoomViewController" customModule="MyRvApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="nW6-X5-yG5"/>
-                        <viewControllerLayoutGuide type="bottom" id="AeN-lC-9AY"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="1DU-A9-Lfk">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RVMainRoomFloorPlan.png" translatesAutoresizingMaskIntoConstraints="NO" id="9XF-Wh-znl">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RVFloorPlanMiddlei5.png" id="9XF-Wh-znl">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
+                        <size key="portraitSize" width="320" height="568"/>
+                        <size key="landscapeSize" width="568" height="320"/>
+                    </simulatedScreenMetrics>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V3T-v5-Pen" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="874" y="141"/>
+            <point key="canvasLocation" x="729" y="139"/>
         </scene>
         <!--Garage View Controller-->
         <scene sceneID="qPL-d4-r6K">
             <objects>
                 <viewController id="M21-mw-Y9A" customClass="GarageViewController" customModule="MyRvApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="OO4-8x-pX7"/>
-                        <viewControllerLayoutGuide type="bottom" id="yus-nA-qOX"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="unr-aG-dCt">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RVGarageFloorPlan.png" translatesAutoresizingMaskIntoConstraints="NO" id="8Jt-mp-U85">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RVFloorPlanLefti5.png" id="8Jt-mp-U85">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
+                        <size key="portraitSize" width="320" height="568"/>
+                        <size key="landscapeSize" width="568" height="320"/>
+                    </simulatedScreenMetrics>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tWq-aU-3fr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="874" y="834"/>
+            <point key="canvasLocation" x="729" y="551"/>
         </scene>
     </scenes>
     <resources>
-        <image name="RVBedroomFloorPlan.png" width="368" height="318"/>
-        <image name="RVFloorPlanLeft.png" width="351" height="360"/>
-        <image name="RVFloorPlanMiddle.png" width="412" height="360"/>
-        <image name="RVFloorPlanRight.png" width="358" height="360"/>
-        <image name="RVGarageFloorPlan.png" width="343" height="253"/>
-        <image name="RVMainRoomFloorPlan.png" width="440" height="348"/>
+        <image name="RVFloorPlanLefti5.png" width="1136" height="576"/>
+        <image name="RVFloorPlanMiddlei5.png" width="1136" height="576"/>
+        <image name="RVFloorPlanRighti5.png" width="1136" height="576"/>
+        <image name="RVFloorPlani5.png" width="1136" height="576"/>
     </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4">
+            <size key="portraitSize" width="320" height="568"/>
+            <size key="landscapeSize" width="568" height="320"/>
+        </simulatedScreenMetrics>
+    </simulatedMetricsContainer>
 </document>

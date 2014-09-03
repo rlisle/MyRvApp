@@ -23,6 +23,10 @@
 		27D220FD19B5ED5000637814 /* RVFloorPlanLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 27D220FA19B5ED5000637814 /* RVFloorPlanLeft.png */; };
 		27D220FE19B5ED5000637814 /* RVFloorPlanMiddle.png in Resources */ = {isa = PBXBuildFile; fileRef = 27D220FB19B5ED5000637814 /* RVFloorPlanMiddle.png */; };
 		27D220FF19B5ED5000637814 /* RVFloorPlanRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 27D220FC19B5ED5000637814 /* RVFloorPlanRight.png */; };
+		27D2210119B63C2800637814 /* RVFloorPlani5.png in Resources */ = {isa = PBXBuildFile; fileRef = 27D2210019B63C2800637814 /* RVFloorPlani5.png */; };
+		27D2210519B7389700637814 /* RVFloorPlanLefti5.png in Resources */ = {isa = PBXBuildFile; fileRef = 27D2210219B7389700637814 /* RVFloorPlanLefti5.png */; };
+		27D2210619B7389700637814 /* RVFloorPlanMiddlei5.png in Resources */ = {isa = PBXBuildFile; fileRef = 27D2210319B7389700637814 /* RVFloorPlanMiddlei5.png */; };
+		27D2210719B7389700637814 /* RVFloorPlanRighti5.png in Resources */ = {isa = PBXBuildFile; fileRef = 27D2210419B7389700637814 /* RVFloorPlanRighti5.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,10 @@
 		27D220FA19B5ED5000637814 /* RVFloorPlanLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RVFloorPlanLeft.png; sourceTree = "<group>"; };
 		27D220FB19B5ED5000637814 /* RVFloorPlanMiddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RVFloorPlanMiddle.png; sourceTree = "<group>"; };
 		27D220FC19B5ED5000637814 /* RVFloorPlanRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RVFloorPlanRight.png; sourceTree = "<group>"; };
+		27D2210019B63C2800637814 /* RVFloorPlani5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RVFloorPlani5.png; sourceTree = "<group>"; };
+		27D2210219B7389700637814 /* RVFloorPlanLefti5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RVFloorPlanLefti5.png; sourceTree = "<group>"; };
+		27D2210319B7389700637814 /* RVFloorPlanMiddlei5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RVFloorPlanMiddlei5.png; sourceTree = "<group>"; };
+		27D2210419B7389700637814 /* RVFloorPlanRighti5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RVFloorPlanRighti5.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,10 +99,14 @@
 		27A5652A19AB5D57004DD0F0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				27D2210219B7389700637814 /* RVFloorPlanLefti5.png */,
+				27D2210319B7389700637814 /* RVFloorPlanMiddlei5.png */,
+				27D2210419B7389700637814 /* RVFloorPlanRighti5.png */,
 				27795C1519ACC04B00B1EB6E /* RVMainRoomFloorPlan.png */,
 				27795C1319ACC04400B1EB6E /* RVGarageFloorPlan.png */,
 				27795C1119ACC03800B1EB6E /* RVBedroomFloorPlan.png */,
 				27A5652819AB5D4B004DD0F0 /* RVFloorPlan.png */,
+				27D2210019B63C2800637814 /* RVFloorPlani5.png */,
 				27D220FA19B5ED5000637814 /* RVFloorPlanLeft.png */,
 				27D220FB19B5ED5000637814 /* RVFloorPlanMiddle.png */,
 				27D220FC19B5ED5000637814 /* RVFloorPlanRight.png */,
@@ -238,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27D2210519B7389700637814 /* RVFloorPlanLefti5.png in Resources */,
 				27CA05EF19A8B8B900B77A27 /* Main.storyboard in Resources */,
 				27CA05F119A8B8B900B77A27 /* Images.xcassets in Resources */,
 				27D220FD19B5ED5000637814 /* RVFloorPlanLeft.png in Resources */,
@@ -245,8 +258,11 @@
 				27D220FE19B5ED5000637814 /* RVFloorPlanMiddle.png in Resources */,
 				27795C1619ACC04B00B1EB6E /* RVMainRoomFloorPlan.png in Resources */,
 				27A5652919AB5D4B004DD0F0 /* RVFloorPlan.png in Resources */,
+				27D2210719B7389700637814 /* RVFloorPlanRighti5.png in Resources */,
+				27D2210619B7389700637814 /* RVFloorPlanMiddlei5.png in Resources */,
 				27D220FF19B5ED5000637814 /* RVFloorPlanRight.png in Resources */,
 				27795C1419ACC04400B1EB6E /* RVGarageFloorPlan.png in Resources */,
+				27D2210119B63C2800637814 /* RVFloorPlani5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
