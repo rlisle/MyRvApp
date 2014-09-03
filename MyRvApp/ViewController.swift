@@ -14,7 +14,7 @@ class ViewController: UIViewController {
                             
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.contentScaleFactor = 1.0
+//        self.view.contentScaleFactor = 1.0
     }
 
     override func didReceiveMemoryWarning() {

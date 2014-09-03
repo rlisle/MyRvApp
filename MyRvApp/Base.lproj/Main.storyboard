@@ -33,7 +33,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RVFloorPlani5.png" id="gmp-Sb-eO7">
+                            <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RVFloorPlan@2x.png" id="gmp-Sb-eO7" userLabel="RVFloorPlan@2x.png">
                                 <rect key="frame" x="0.0" y="0.0" width="1136" height="640"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -84,7 +84,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RVFloorPlanRighti5.png" id="3gd-yT-Suz">
+                            <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RVFloorPlanRight@2x.png" id="3gd-yT-Suz">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -110,7 +110,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RVFloorPlanMiddlei5.png" id="9XF-Wh-znl">
+                            <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RVFloorPlanMiddle@2x.png" id="9XF-Wh-znl">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -136,7 +136,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RVFloorPlanLefti5.png" id="8Jt-mp-U85">
+                            <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RVFloorPlanLeft@2x.png" id="8Jt-mp-U85">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -156,10 +156,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="RVFloorPlanLefti5.png" width="1136" height="576"/>
-        <image name="RVFloorPlanMiddlei5.png" width="1136" height="576"/>
-        <image name="RVFloorPlanRighti5.png" width="1136" height="576"/>
-        <image name="RVFloorPlani5.png" width="1136" height="576"/>
+        <image name="RVFloorPlan@2x.png" width="1125" height="360"/>
+        <image name="RVFloorPlanLeft@2x.png" width="1125" height="360"/>
+        <image name="RVFloorPlanMiddle@2x.png" width="1125" height="360"/>
+        <image name="RVFloorPlanRight@2x.png" width="1125" height="360"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
