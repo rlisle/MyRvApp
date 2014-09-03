@@ -27,6 +27,7 @@ class MainRoomSeque: UIStoryboardSegue {
         let originalCenter = destinationVC.view.center
         // Set center to start point of the button
 //        destinationVC.view.center = self.originatingPoint
+        destinationVC.view.center = CGPointMake(1136.0/4, 576.0/4)
         
         UIView.animateWithDuration(0.5, delay: 0.0, options:UIViewAnimationOptions.CurveEaseInOut, animations: { () -> Void in
                 // Grow!
